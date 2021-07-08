@@ -8,7 +8,7 @@ Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
+This is a custom demo plugin where we create a custom post type 'Music' and taxonomy and list all posts on front using a short code `[music]`.
 
 == Description ==
 
