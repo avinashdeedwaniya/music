@@ -1,0 +1,16 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.music_box{
+	display: grid;
+	grid-template-columns: max-content 1fr;
+	grid-row-gap: 10px;
+	grid-column-gap: 20px;
+}
+.music_field{
+	display: contents;
+}
+.music_box input.error{
+	border:2px solid red;	
+}

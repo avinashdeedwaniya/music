@@ -1,0 +1,175 @@
+# Copyright (C) 2021 by the contributors
+# This file is distributed under the same license as the WordPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Music v1.0.0\n"
+"Report-Msgid-Bugs-To: https://core.trac.wordpress.org/\n"
+"Last-Translator: Avinash <avinash.deedwaniya@gmail.com>\n"
+"Language-Team: Avinash <avinash.deedwaniya@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-07T19:21:14+00:00\n"
+"PO-Revision-Date: 2021-07-08 10:54+5:30\n"
+"X-Generator: WP-CLI 2.5.0-dotorg\n"
+
+#: ./admin/music_meta_fields.php:14
+msgid "Composer Name"
+msgstr ""
+
+#: ./admin/music_meta_fields.php:18
+msgid "Publisher"
+msgstr ""
+
+#: ./admin/music_meta_fields.php:22
+msgid "Year of recording"
+msgstr ""
+
+#: ./admin/music_meta_fields.php:26
+msgid "Additional Contributors"
+msgstr ""
+
+#: ./admin/music_meta_fields.php:30
+msgid "URL"
+msgstr ""
+
+#: ./admin/music_meta_fields.php:34
+msgid "Price"
+msgstr ""
+
+#: ./admin/class-music-admin.php:265
+#: ./admin/class-music-admin.php:279
+msgid "Music Settings"
+msgstr ""
+
+#: ./admin/class-music-admin.php:301
+msgid "Music per page"
+msgstr ""
+
+#: ./admin/class-music-admin.php:286
+msgid "Currency"
+msgstr ""
+
+#: ./admin/class-music-admin.php:105
+#: ./admin/class-music-admin.php:106
+#: ./admin/class-music-admin.php:107
+#: ./admin/class-music-admin.php:119
+#: ./admin/class-music-admin.php:126
+#: ./admin/class-music-admin.php:170
+#: ./admin/class-music-admin.php:171
+#: ./admin/class-music-admin.php:183
+msgid "Music"
+msgstr "" 
+
+#: ./admin/class-music-admin.php:108
+#: ./admin/class-music-admin.php:173
+msgid "All Music"
+msgstr ""
+
+#: ./admin/class-music-admin.php:109
+#: ./admin/class-music-admin.php:110
+#: ./admin/class-music-admin.php:178
+msgid "Add New Music"
+msgstr ""
+
+#: ./admin/class-music-admin.php:111
+#: ./admin/class-music-admin.php:176
+msgid "Edit Music"
+msgstr ""
+
+#: ./admin/class-music-admin.php:112
+#: ./admin/class-music-admin.php:179
+msgid "New Music"
+msgstr ""
+
+#: ./admin/class-music-admin.php:113
+#: ./admin/class-music-admin.php:114
+msgid "View Music"
+msgstr ""
+
+#: ./admin/class-music-admin.php:115
+#: ./admin/class-music-admin.php:172
+msgid "Search Music"
+msgstr ""
+
+#: ./admin/class-music-admin.php:116
+msgid "No Music found"
+msgstr ""
+
+#: ./admin/class-music-admin.php:117
+msgid "No Music found in trash"
+msgstr ""
+
+#: ./admin/class-music-admin.php:118
+#: ./admin/class-music-admin.php:122
+msgid "Parent Music"
+msgstr ""
+
+#: ./admin/class-music-admin.php:120
+msgid "Music published"
+msgstr ""
+
+#: ./admin/class-music-admin.php:121
+msgid "Music updated"
+msgstr ""
+
+#: ./admin/class-music-admin.php:141
+msgid "Genres"
+msgstr ""
+
+#: ./admin/class-music-admin.php:142
+#: ./admin/class-music-admin.php:151
+msgid "Genre"
+msgstr ""
+
+#: ./admin/class-music-admin.php:143
+msgid "Search Genres"
+msgstr ""
+
+#: ./admin/class-music-admin.php:144
+msgid "All Genres"
+msgstr ""
+
+#: ./admin/class-music-admin.php:145
+msgid "Parent Genre"
+msgstr ""
+
+#: ./admin/class-music-admin.php:146
+msgid "Parent Genre:"
+msgstr ""
+
+#: ./admin/class-music-admin.php:147
+msgid "Edit Genre"
+msgstr ""
+
+#: ./admin/class-music-admin.php:148
+msgid "Update Genre"
+msgstr ""
+
+#: ./admin/class-music-admin.php:149
+msgid "Add New Genre"
+msgstr ""
+
+#: ./admin/class-music-admin.php:150
+msgid "New Genre Name"
+msgstr ""
+
+#: ./admin/class-music-admin.php:179
+msgid "New Music Name"
+msgstr ""
+
+#: ./admin/class-music-admin.php:180
+msgid "Separate Musics with commas"
+msgstr ""
+
+#: ./admin/class-music-admin.php:181
+msgid "Add or remove Music"
+msgstr ""
+
+#: ./admin/class-music-admin.php:182
+msgid "No music found."
+msgstr "" 
+
+#: ./admin/class-music-admin.php:199
+msgid "Music Information"
+msgstr "" 
