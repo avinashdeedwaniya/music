@@ -161,9 +161,9 @@ class Music_Public {
 			$music_grid.='<ul>';
 			while ($music_result->have_posts()){
 				$music_result->the_post();
-				$price = $compser_name = $publisher_name = $music_year_recording = $music_additional_contrib = $music_url = '';
+				$thumb_image = $price = $compser_name = $publisher_name = $music_year_recording = $music_additional_contrib = $music_url = '';
 				// Show pricing
-				if($music_admin->get_music_meta(get_the_ID(),'compser_name')){
+				if($music_admin->get_music_meta(get_the_ID(),'music_price')){
 					$price = '<br/>Price: &#'.get_option('currency').';'.$music_admin->get_music_meta(get_the_ID(),'music_price').';'; 				
 				}
 				// Show composer
@@ -186,7 +186,10 @@ class Music_Public {
 				if($music_admin->get_music_meta(get_the_ID(),'music_url')){
 					$music_url = '<br/>URL: <a href="'.$music_admin->get_music_meta(get_the_ID(),'music_url').'">Click here</a>';					
 				}
-				$music_grid.= '<li><a href="'.get_the_permalink(get_the_ID()).'">'.get_the_title().'</a>'.$price.$compser_name.$publisher_name.$music_year_recording.$music_additional_contrib.$music_url.'</li>';
+				if ( has_post_thumbnail() ) {
+					$thumb_image = get_the_post_thumbnail( get_the_ID(), 'thumbnail' ).'<br/>';
+				}
+				$music_grid.= '<li>'.$thumb_image.'<a href="'.get_the_permalink(get_the_ID()).'">'.get_the_title().'</a>'.$price.$compser_name.$publisher_name.$music_year_recording.$music_additional_contrib.$music_url.'</li>';
 				
 			} 
 			$music_grid.='</ul>';

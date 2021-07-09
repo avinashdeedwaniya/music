@@ -132,7 +132,8 @@ class Music_Admin {
 			"labels" => $labels,
 			"public"    => true,
 			"menu_icon" => "dashicons-book",
-			"description" => "This is music custom post type",  
+			"description" => "This is music custom post type", 
+			"supports" => array( 'title', 'editor', 'thumbnail' ),			
 			"rewrite" => array('slug' => 'music')
 		]; 
 		register_post_type( "music", $args );
