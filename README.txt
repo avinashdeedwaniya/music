@@ -19,6 +19,13 @@ You can also pass the parameters to filter out the listing like
 You can manage the currency and number of posts shown in one paging from `Music Settings` page.
 This plugin will create a new custom table in the database to store all data of all meta fields connected to Music post type.
 
+This plugin also support WPCLI to delete any post by title or all music posts.
+Following are commands for both:
+`wp music delete_music --all=yes`
+`wp music delete_music --title=Music1`
+
+__Please run composer file before use WPCLI if not installed on your server.__
+
 == Installation ==
 1. Upload `music.php` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the \'Plugins\' menu in WordPress

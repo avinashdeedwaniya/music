@@ -121,6 +121,11 @@ class Music {
 		 * side of the site.
 		 */
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-music-public.php';
+		
+		/**
+		 * WPCLI Commands
+		 */
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/wpcli.php';
 
 		$this->loader = new Music_Loader();
 
